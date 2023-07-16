@@ -577,6 +577,7 @@ label {
 .checkbox input {
   width: 20px;
   height: 20px;
+  overflow: hidden;
 }
 .checkout-modal__checkbox-field label {
   margin: 0px;
@@ -807,6 +808,36 @@ input.w-button {
 }
 .test-fonts {
   max-width: 512px;
+  font-family: "Struve Regular";
+}
+.test-fonts__section {
+  margin-bottom: 0px;
+}
+.test-fonts__agreement.test-fonts__checkbox-field {
+  margin-top: 38px;
+}
+.test-fonts__agreement.test-fonts__checkbox-field div div span.icon::before {
+  width: 20px;
+  height: 20px;
+}
+.test-fonts__newsletter-opt-in.test-fonts__checkbox-field
+  div
+  div
+  span.icon::before {
+  width: 20px;
+  height: 20px;
+}
+form.test-fonts__form div button {
+  width: 100%;
+  border-radius: 3px;
+  background: #1a1b1c;
+  color: white;
+  text-align: center;
+  margin-top: 22px;
+}
+form.test-fonts__form div button:hover:not(:disabled) {
+  background: #303133;
+  color: white;
 }
 
 /*mobile*/
